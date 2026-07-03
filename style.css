@@ -1,1 +1,123 @@
+<!DOCTYPE html>
 
+<html lang="fr">
+
+ 
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>CS2 Sensi Finder</title>
+
+ 
+
+<link rel="stylesheet" href="style.css">
+
+ 
+
+https://cdn.jsdelivr.net/npm/chart.js>
+
+</head>
+
+ 
+
+<body>
+
+ 
+
+<header>
+
+<h1>🎯 CS2 Sensi Finder</h1>
+
+<p>Trouve ta sensibilité optimale</p>
+
+</header>
+
+ 
+
+<main>
+
+ 
+
+<section class="card">
+
+ 
+
+<h2>Informations</h2>
+
+ 
+
+<input id="dpi" type="number" placeholder="DPI" value="800">
+
+ 
+
+<input id="sens" type="number" step="0.01" placeholder="Sensibilité" value="1">
+
+ 
+
+<select id="role">
+
+<option>Rifler</option>
+
+<option>AWP</option>
+
+<option>Entry</option>
+
+<option>Support</option>
+
+</select>
+
+ 
+
+</section>
+
+ 
+
+<section class="card">
+
+ 
+
+<h2>Analyse</h2>
+
+ 
+
+<label>Tracking</label>
+
+<select id="tracking">
+
+<option value="-10">Très difficile</option>
+
+<option value="0">Correct</option>
+
+<option value="10">Très facile</option>
+
+</select>
+
+ 
+
+<label>Flick</label>
+
+<select id="flick">
+
+<option value="-10">Je dépasse souvent</option>
+
+<option value="0">Correct</option>
+
+<option value="10">Je m'arrête avant</option>
+
+</select>
+
+ 
+
+<label>Micro-ajustements</label>
+
+<select id="micro">
+
+<option value="-5">Difficiles</option>
+
+<option value="0">Corrects</option>
+
+<option value="5">Faciles</option>
